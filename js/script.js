@@ -1,5 +1,5 @@
 console.log("Tym razem umiem więcej 😃");
-let titleChangeButton = document.querySelector(".mainBody__titleButton");
+let titleChangeButton = document.querySelector(".main__titleButton");
 let title = document.querySelector(".title");
 let newTitle = document.querySelector(".newTitle");
 titleChangeButton.addEventListener("click", function () {
