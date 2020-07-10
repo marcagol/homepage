@@ -1,0 +1,137 @@
+.mainBody {
+    background-color: rgba(243, 240, 240, 0.884);
+    border: 10px solid white;
+    border-bottom: 0px;
+    padding: 20px;
+  }
+  
+  .mainBody__importantHeader {
+    color: rgb(78, 78, 78);
+    text-shadow: 4px 3px 5px 0px lightslategray;
+  }
+  
+  .mainBody__myImage {
+    max-width: 20%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(211, 211, 211, 0.459);
+    box-shadow: 10px 10px 5px 0px lightgray;
+  }
+  
+  .mainBody__biggerHeader {
+    color: rgb(102, 88, 88);
+  }
+  
+  .mainBody__smallerHeader {
+    color: rgb(112, 79, 79);
+  }
+  
+  .mainBody__smallerHeader--highlighted {
+    color: rgb(109, 20, 20);
+  }
+  
+  .mainBody__tableContainer {
+    overflow-x: auto;
+  }
+  
+  .mainBody__table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .mainBody__tableCaption {
+    background-color: darkgrey;
+    border: 1px solid white;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  .mainBody__headerCell {
+    background-color: grey;
+    font-weight: 400;
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+    caption-side: bottom;
+  }
+  
+  .mainBody__cell {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    caption-side: bottom;
+  }
+  
+  .mainBody__tableRow:nth-child(even) {
+    background-color: rgb(223, 222, 222);
+  }
+  
+  .mainBody__important {
+    color: crimson;
+  }
+  
+  .mainBody__tableRow:hover {
+    background-color: rgba(181, 238, 181, 0.747);
+  }
+  
+  .mainBody__specialLink:visited {
+    color: violet;
+  }
+  
+  .mainBody__specialLink:hover {
+    color: lightseagreen;
+  }
+  
+  .mainBody__specialLink:focus {
+    color: lightskyblue;
+    text-decoration: none;
+  }
+  
+  .mainBody__specialLink:active {
+    color: lightcoral;
+  }
+  
+  .mainBody__gallery {
+    text-align: center;
+  }
+  
+  .mainBody__galleryImage {
+    max-width: 300px;
+    max-height: 100px;
+    border: 10px solid white;
+    box-shadow: 5px 10px 5px 0px rgba(211, 211, 211, 0.74);
+    margin: 10px;
+  }
+  
+  .mainBody__titleButton {
+    background-color: grey;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 10px 5px 5px 0px rgba(128, 128, 128, 0.801);
+    outline: none;
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    min-width: 50%;
+    min-height: 50px;
+    padding: 1%;
+    margin: -20px;
+  }
+  
+  .mainBody__titleButton:hover {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    outline: none;
+    text-align: right;
+  }
+  
+  .mainBody__titleButton:focus {
+    background-color: rgba(181, 238, 181, 0.747);
+    color: black;
+    outline: none;
+    text-align: left;
+  }

@@ -1,0 +1,14 @@
+.header {
+    background-image: url("https://i.ibb.co/JqkKMYp/rs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 250px;
+    border: 10px solid white;
+    border-bottom: 0px;
+  }
+  
+  .header:hover {
+    background-image: url("https://i.ibb.co/XSRsP9x/cat.jpg");
+  }
