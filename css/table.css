@@ -1,0 +1,36 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table__caption {
+    background-color: darkgrey;
+    border: 1px solid white;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  .table__cell--header {
+    background-color: grey;
+    font-weight: 400;
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+    caption-side: bottom;
+  }
+  
+  .table__cell {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    caption-side: bottom;
+  }
+  
+  .table__row:nth-child(even) {
+    background-color: rgb(223, 222, 222);
+  }
+  .table__row:hover {
+    background-color: rgba(181, 238, 181, 0.747);
+  }

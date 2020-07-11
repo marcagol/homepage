@@ -35,46 +35,10 @@
     overflow-x: auto;
   }
   
-  .main__table {
-    width: 100%;
-    border-collapse: collapse;
-  }
   
-  .main__tableCaption {
-    background-color: darkgrey;
-    border: 1px solid white;
-    font-weight: 800;
-    font-size: 20px;
-    padding: 5px;
-  }
-  
-  .main__headerCell {
-    background-color: grey;
-    font-weight: 400;
-    border: 1px solid white;
-    padding: 5px;
-    text-align: center;
-    caption-side: bottom;
-  }
-  
-  .main__cell {
-    border: 1px solid white;
-    border-collapse: collapse;
-    padding: 5px;
-    text-align: center;
-    caption-side: bottom;
-  }
-  
-  .main__tableRow:nth-child(even) {
-    background-color: rgb(223, 222, 222);
-  }
   
   .main__important {
     color: crimson;
-  }
-  
-  .main__tableRow:hover {
-    background-color: rgba(181, 238, 181, 0.747);
   }
   
   .main__specialLink:visited {
