@@ -8,4 +8,4 @@ Strona internetowa przedstawia jedno z moich zainteresowań. Znajdziesz na niej 
 - dowiesz się jak skontaktować się ze mną. 
 
 ## Demo
-[Moja strona](https://marcagol.github.io/homepage)
+[Marcelina Photography](https://marcagol.github.io/homepage)
