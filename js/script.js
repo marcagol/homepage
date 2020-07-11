@@ -1,4 +1,8 @@
-console.log("Tym razem umiem więcej 😃");
+function welcome () {
+  console.log("Tym razem umiem więcej 😃");
+}
+
+welcome();
 let titleChangeButton = document.querySelector(".main__titleButton");
 let title = document.querySelector(".title");
 let newTitle = document.querySelector(".newTitle");
