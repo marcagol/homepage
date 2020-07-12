@@ -5,7 +5,7 @@
 
   const toggleTitle = () => {
     const title = document.querySelector(".title");
-    const titleChangeButton = document.querySelector(".titleChangeButton");
+    const titleChangeButton = document.querySelector(".js-button");
 
 
     title.classList.toggle("newTitle");
